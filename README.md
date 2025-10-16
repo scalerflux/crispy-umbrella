@@ -43,6 +43,25 @@ Cool that was great i reckon let's now Id vs Vgs graph for this short channel tr
 
 <img width="931" height="1122" alt="Screenshot 2025-10-16 at 12 21 11 PM" src="https://github.com/user-attachments/assets/044c07d9-d891-40fd-91e8-cc1f37dc369d" />
 
+# Voltage transfer characteristicks
+Claculating the output voltage Vout while sweeping the vaues of inpt volatage Vin
+the switching threshold is coming around 0.87 fro W/L =?
+<img width="1104" height="1122" alt="Screenshot 2025-10-16 at 7 22 19 PM" src="https://github.com/user-attachments/assets/f0fc6d31-b3d2-4e4a-b020-3d2987182389" />
+
+# Trnsfer charateristicks 
+
+## Rise delay
+
+at point 0.9 which is half of the Vdd(2.0) we calculate Vout-Vin = 2.48- 2.14 = 0.34 
+
+<img width="1157" height="1122" alt="Screenshot 2025-10-16 at 7 34 46 PM" src="https://github.com/user-attachments/assets/f9e8d84f-3518-4d33-83ea-b6aa5c3659f5" />
+
+## Falling delay 
+
+which is 4.33-4.05 = 0.28
+<img width="941" height="1122" alt="Screenshot 2025-10-16 at 7 43 47 PM" src="https://github.com/user-attachments/assets/fbdb6345-8eee-476d-b785-d53434377b3f" />
+
+
 
 
 
