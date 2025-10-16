@@ -18,3 +18,19 @@ It's essentially coz, for this NMOS transistor to be on we need the Vgs to be at
 
 <img width="3364" height="1304" alt="image" src="https://github.com/user-attachments/assets/251efdb1-5497-4759-b801-997c535d1ef4" />
 
+---
+
+We looked at the long channel transistor, Now let's take the short channel transistor>  Intresting! so for lower values of Vgs it shoes Quadraic behaviour conversely for higher values it's a linear behaviour, So esentially from Vgs = 1v it's showing the linear behaiour
+
+<img width="1086" height="1122" alt="Screenshot 2025-10-16 at 11 48 03 AM" src="https://github.com/user-attachments/assets/b775ec41-a5ac-4ebf-85f1-3f47d55bcb9e" />
+
+***
+
+Cool that was great i reckon let's now Id vs Vgs graph for this short channel transistor, for this we're keeping Vds constant. There we this one shows linear behaviour as well and the slope of this curve will give the threshold voltage
+
+<img width="931" height="1122" alt="Screenshot 2025-10-16 at 12 21 11 PM" src="https://github.com/user-attachments/assets/4ad09aeb-8291-4130-bc67-badff892fc16" />
+
+
+
+
+
