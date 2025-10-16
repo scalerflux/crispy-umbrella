@@ -48,7 +48,7 @@ Claculating the output voltage Vout while sweeping the vaues of inpt volatage Vi
 the switching threshold is coming around 0.87 fro W/L =?
 <img width="1104" height="1122" alt="Screenshot 2025-10-16 at 7 22 19 PM" src="https://github.com/user-attachments/assets/f0fc6d31-b3d2-4e4a-b020-3d2987182389" />
 
-# Trnsfer charateristicks 
+# Transition charateristicks 
 
 ## Rise delay
 
