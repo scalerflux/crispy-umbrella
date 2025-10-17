@@ -44,9 +44,12 @@ Cool that was great i reckon let's now Id vs Vgs graph for this short channel tr
 <img width="931" height="1122" alt="Screenshot 2025-10-16 at 12 21 11 PM" src="https://github.com/user-attachments/assets/044c07d9-d891-40fd-91e8-cc1f37dc369d" />
 
 # Voltage transfer characteristicks
-* Claculating the output voltage Vout while sweeping the vaues of inpt volatage Vin
-* Let's checkout few parameters to see the robustness of CMOS 
-* the switching threshold(Point where Vin = Vout) is coming around 0.87 fro W/L =?
+ Claculating the output voltage Vout while sweeping the vaues of inpt volatage Vin
+ 
+ Let's checkout few parameters to see the robustness of CMOS 
+## the switching threshold(Point where Vin = Vout)
+
+* is coming around 0.87 fro W/L =?
 * The CMOS is at the saturation region,  $V_{gs}$ = $V_{ds}$ &  $I_{dsP}$ = - $I_{dsP}$
 
 <img width="1036" height="1122" alt="Screenshot 2025-10-17 at 11 29 36 AM" src="https://github.com/user-attachments/assets/b5777ec8-8f97-46b4-94c0-b8b73c0319e5" />
@@ -54,21 +57,39 @@ Cool that was great i reckon let's now Id vs Vgs graph for this short channel tr
 <img width="2236" height="1054" alt="image" src="https://github.com/user-attachments/assets/006ac2f4-864b-49c7-88c4-7c644aaffa26" />
 
 
-# Transition charateristicks 
+### Transition charateristicks 
 
-## Rise delay
+#### Rise delay
 
 at point 0.9 which is half of the Vdd(1.8) we calculate Vout-Vin = 2.48- 2.14, which is 332ps
 
 <img width="1157" height="1122" alt="Screenshot 2025-10-16 at 7 34 46 PM" src="https://github.com/user-attachments/assets/f9e8d84f-3518-4d33-83ea-b6aa5c3659f5" />
 
-## Falling delay 
+**Falling delay**
 
 which is 4.33-4.05, which is 284ps 
 <img width="941" height="1122" alt="Screenshot 2025-10-16 at 7 43 47 PM" src="https://github.com/user-attachments/assets/fbdb6345-8eee-476d-b785-d53434377b3f" />
 
-Increasing the W/L will increase the Vm as PMOS gets more area to charge the capacitot
+Increasing the W/L will increase the Vm as PMOS gets more area to charge the capacitor, we can use these inverters stategically to reduce the delay in the  data path
 <img width="1958" height="712" alt="image" src="https://github.com/user-attachments/assets/7fc45a49-dd26-4584-b514-53b6360c50db" />
+
+# Noise margins
+
+Voh - Vih = 1.7- 0.96 = 0.74
+Vil - Vol = 0.76 - 0.13 = 0.63
+
+<img width="1214" height="1055" alt="Screenshot 2025-10-17 at 4 25 07 PM" src="https://github.com/user-attachments/assets/1a73c7b2-06af-4bb9-b0f7-e23860cc1331" />
+
+## Power supply variation
+
+<img width="1300" height="1166" alt="Screenshot 2025-10-17 at 7 09 06 PM" src="https://github.com/user-attachments/assets/d58260ba-e424-4f23-8fce-bd87131eefd9" />
+
+This looking amazing, we should the CMOS with 0.8v Vdd right?, Hmm...No! Coz jut a take a look at the graph below
+
+the device not even ble to completely charge or discharge at 0.8v,the rise time not enough to charge the output load capacitence to 0.8v.   This hits the performence bad
+
+<img width="1151" height="781" alt="Screenshot 2025-10-17 at 7 33 39 PM" src="https://github.com/user-attachments/assets/a999926e-884c-4a7e-a10e-372676318f26" />
+
 
 
 
