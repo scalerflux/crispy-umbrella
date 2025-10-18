@@ -2,7 +2,7 @@
 
 # Week 4: Transistor and Inverter Characterization
 
-## 1. Intro
+## Intro
 
 This report details a series of SPICE experiments conducted to characterize the behavior of individual MOSFETs and a standard CMOS inverter. The purpose of these experiments is to build a foundational understanding of how transistor-level physics influences circuit-level performance metrics relevant to digital design and Static Timing Analysis (STA).
 
@@ -54,26 +54,26 @@ Figure 4: Short-Channel $I_{d}$ vs. $V_{gs}$
 
 ***
 
-### 3.2. CMOS Inverter VTC \& Transient Characteristics
+### CMOS Inverter VTC \& Transient Characteristics
 
 
-Figure 5: Inverter VTC with Switching Threshold ($V_{m}$) 
+ Inverter VTC with Switching Threshold ($V_{m}$) 
 
 <img width="1036" height="1122" alt="Screenshot 2025-10-17 at 11 29 36 AM" src="https://github.com/user-attachments/assets/b5777ec8-8f97-46b4-94c0-b8b73c0319e5" />
 
 ---
-*Figure 6: Transient Response for Rise Delay Measurement*
+* Transient Response for Rise Delay Measurement*
 
 <img width="1157" height="1122" alt="Screenshot 2025-10-16 at 7 34 46 PM" src="https://github.com/user-attachments/assets/f9e8d84f-3518-4d33-83ea-b6aa5c3659f5" />
 
 ---
-*Figure 7: Transient Response for Fall Delay Measurement*
+* Transient Response for Fall Delay Measurement*
 
 <img width="941" height="1122" alt="Screenshot 2025-10-16 at 7 43 47 PM" src="https://github.com/user-attachments/assets/fbdb6345-8eee-476d-b785-d53434377b3f" />
 
 ---
 
-Figure 8: VTC Noise Margins ($V_{IL}, V_{IH}, V_{OL}, V_{OH}$) Annotated
+ VTC Noise Margins ($V_{IL}, V_{IH}, V_{OL}, V_{OH}$) Annotated
 
 <img width="1214" height="1055" alt="Screenshot 2025-10-17 at 4 25 07 PM" src="https://github.com/user-attachments/assets/1a73c7b2-06af-4bb9-b0f7-e23860cc1331" />
 
@@ -101,15 +101,15 @@ Figure 8: VTC Noise Margins ($V_{IL}, V_{IH}, V_{OL}, V_{OH}$) Annotated
 
 
 
-*Figure 9: VTC Under Power Supply (VDD) Variation*
+* VTC Under Power Supply (VDD) Variation*
 <img width="1300" height="1166" alt="Screenshot 2025-10-17 at 7 09 06 PM" src="https://github.com/user-attachments/assets/d58260ba-e424-4f23-8fce-bd87131eefd9" />
 
 ---
-*Figure 10: Transient Failure at Low VDD (0.8V)*
+* Transient Failure at Low VDD (0.8V)*
 <img width="1151" height="781" alt="Screenshot 2025-10-17 at 7 33 39 PM" src="https://github.com/user-attachments/assets/a999926e-884c-4a7e-a10e-372676318f26" />
 
 ---
-*Figure 11: VTC Under Process (Corner) Variation*
+* VTC Under Process (Corner) Variation*
 <img width="1220" height="1162" alt="Screenshot 2025-10-18 at 10 26 41 AM" src="https://github.com/user-attachments/assets/2641d34b-ae58-42e5-93c7-034316b14caa" />
 
 ---
@@ -128,7 +128,7 @@ Figure 8: VTC Noise Margins ($V_{IL}, V_{IH}, V_{OL}, V_{OH}$) Annotated
 * **STA Connection:** This is why STA is performed across multiple Process, Voltage, and Temperature (PVT) corners. The "slow" corner (slow devices, low voltage, high temp) determines the worst-case setup time, while the "fast" corner (fast devices, high voltage, low temp) determines the worst-case hold time. These analyses ensure the chip functions reliably despite manufacturing and environmental variations.
 
 
-## 4. Conclusions
+## Conclusions
 
 These experiments demonstrate the direct link between transistor-level physics and high-level digital circuit performance. Key takeaways include:
 
