@@ -109,7 +109,7 @@ Figure 4: Short-Channel $I_{d}$ vs. $V_{gs}$
 <img width="1151" height="781" alt="Screenshot 2025-10-17 at 7 33 39 PM" src="https://github.com/user-attachments/assets/a999926e-884c-4a7e-a10e-372676318f26" />
 
 ---
-* VTC Under Process (Corner) Variation*
+* VTC Under device Variation*
 <img width="1220" height="1162" alt="Screenshot 2025-10-18 at 10 26 41 AM" src="https://github.com/user-attachments/assets/2641d34b-ae58-42e5-93c7-034316b14caa" />
 
 ---
